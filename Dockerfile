@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi9:9.2-696@sha256:089bd3b82a78ac45c0eed231bb58bfb43bfcd0560d9bba240fc6355502c92976
+FROM registry.redhat.io/ubi9:9.8-1784165989@sha256:50701171b9917ed51048b614924598d45b00bce9a64b73860c057922fc13bec2
 WORKDIR /src
 COPY main.py .
 CMD ["echo", "hello"]
